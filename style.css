@@ -1,5 +1,11 @@
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{
-    margin:0;padding:0;border:0;vertical-align:baseline;font:inherit;font-size:100%;text-decoration:none;
+    margin:0;
+    padding:0;
+    border:0;
+    vertical-align:baseline;
+    font:inherit;
+    font-size:100%;
+    text-decoration:none;
 }
 html{
     line-height:1
@@ -8,14 +14,18 @@ ol,ul{
     list-style:none
 }
 table{
-    border-collapse:collapse;border-spacing:0
+    border-collapse:collapse;
+    border-spacing:0
 }
 caption,td,th{
-    vertical-align:middle;text-align:left;font-weight:400
+    vertical-align:middle;
+    text-align:left;
+    font-weight:400
 }
 blockquote,q{quotes:none}
 blockquote:after,blockquote:before,q:after,q:before{
-    content:"";content:none
+    content:"";
+    content:none
 }
 a img{
     border:none
@@ -23,11 +33,27 @@ a img{
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{
     display:block
 }
-.type-section--open,body,h3 .marked,small{font-weight:300;font-family:'Open Sans',sans-serif}
-.chrome .type-section--alg,.chrome h1,.chrome h2,.chrome h3{font-weight:900;font-family:Ampersand,'Alegreya Sans SC',sans-serif}
-.has-tooltip .tooltip,.pagination,.type-section--alg,h1,h2{font-weight:900;font-family:'Alegreya Sans SC',sans-serif}
-h3{font-weight:800;font-family:'Alegreya Sans SC',sans-serif}
-a,blockquote{font-weight:400;font-family:'Alegreya Sans SC',sans-serif}
+.type-section--open,body,h3 .marked,small{
+    font-weight:300;
+    font-family:Georgia, "Times New Roman", "Microsoft YaHei",STXihei,SimSun,serif
+
+}
+.chrome .type-section--alg,.chrome h1,.chrome h2,.chrome h3{
+    font-weight:900;
+    font-family:Georgia, "Times New Roman", "Microsoft YaHei",STXihei,SimSun,serif
+}
+.has-tooltip .tooltip,.pagination,.type-section--alg,h1,h2{
+    font-weight:900;
+    font-family:Georgia, "Times New Roman", "Microsoft YaHei",STXihei,SimSun,serif
+}
+h3{
+    font-weight:800;
+    font-family:Georgia, "Times New Roman", "Microsoft YaHei",STXihei,SimSun,serif
+}
+a,blockquote{
+    font-weight:400;
+    font-family:'Alegreya Sans SC',sans-serif
+}
 .alpha--upper,.uppercase{text-transform:uppercase}
 .lowercase{text-transform:lowercase}
 .italic,p.caption{font-style:italic}
@@ -70,16 +96,42 @@ h3 .marked{color:#696969;font-size:19.2px;font-size:1.2rem}
 }
 @media (max-width:30em){h3{font-size:16px;font-size:1rem}
 }
-p{color:#696969;line-height:1.6}
-p.center{max-width:600px;text-align:left;-ms-text-align:left}
-a{padding:0 .2em;-webkit-transition-duration:.5s;-moz-transition-duration:.5s;-o-transition-duration:.5s;transition-duration:.5s}
-small{color:#696969;font-size:70%}
-body{margin:0;padding:0;font-size:16px}
-*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+p{
+    color:#696969;
+    line-height:1.6
+}
+p.center{
+    max-width:600px;
+    text-align:left;
+    -ms-text-align:left
+}
+a{
+    padding:0 .2em;
+    font-weight:bold;
+    -webkit-transition-duration:.5s;
+    -moz-transition-duration:.5s;
+    -o-transition-duration:.5s;
+    transition-duration:.5s
+}
+small{
+    color:#696969;
+    font-size:70%
+}
+body{
+    margin:0;
+    padding:0;
+    font-size:16px
+}
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
 ::selection{background: #9ffedf;color:#fff}
 ::-moz-selection{background: #9ffedf;color:#fff}
 .row{position:relative;overflow:hidden;width:100%}
-hr{border-top:1px solid #696969;
+hr{
+    border-top:1px solid #696969;
     boder-bottom:0 solid transparent;
     margin:1em 0 3em
 }
